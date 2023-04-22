@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  background-color: hsl(185, 75%, 39%);
+}
+.ilustration {
+  width: 800px;
+  height: 800px;
+  margin-left: -900px;
+  margin-top: -300px;
+}
+.ilustration2 {
+  width: 800px;
+  height: 800px;
+  rotate: 180;
+  margin-left: 700px;
+
+  top: 50%;
+
+  position: fixed;
+  z-index: -1;
+}
+.card {
+  width: 350.39px;
+  height: 371.19px;
+
+  position: absolute;
+
+  border-radius: 15px;
+
+  background-color: white;
+}
+.top {
+  border-radius: 15px 15px 0 0;
+  width: 100%;
+}
+.profile-photo {
+  border: 5px solid #e7e7e7;
+
+  border-radius: 50px;
+
+  margin-top: -45px;
+
+  width: 90px;
+  height: 90px;
+}
+.section-photo {
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+  gap: 18px;
+}
+.section-about {
+  padding-top: 20px;
+  border-top: 1px solid #e7e7e7;
+  font-family: "Kumbh Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+
+  margin-top: 20px;
+
+  display: flex;
+  justify-content: space-evenly;
+
+  color: #2d3248;
+}
+.section-about p {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.section-about p span {
+  font-family: "Kumbh Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12.8px;
+  line-height: 16px;
+  letter-spacing: 1.28px;
+
+  display: block;
+
+  color: #6a6f81;
+}
+h1 {
+  font-family: "Kumbh Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+}
+h1 span {
+  font-family: "Kumbh Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20.8px;
+  line-height: 26px;
+
+  color: #6a6f81;
+}
+.city {
+  font-family: "Kumbh Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12.8px;
+  line-height: 16px;
+
+  color: #6a6f81;
+}
